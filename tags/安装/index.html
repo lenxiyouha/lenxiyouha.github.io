@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes">
 
-<title>tags - Ethan&#39;s Blog</title>
+<title>Ethan&#39;s Blog</title>
 
 
 <meta name="description" content="让梦想变为可以实现的现实">
@@ -18,10 +18,10 @@
 
 
 <!-- Open Graph -->
-<meta property="og:title" content="tags - Ethan&#39;s Blog">
+<meta property="og:title" content="Ethan&#39;s Blog">
 <meta property="og:description" content="让梦想变为可以实现的现实">
 <meta property="og:type" content="website">
-<meta property="og:url" content="https://blog.120407.xyz/tags/index.html">
+<meta property="og:url" content="https://blog.120407.xyz">
 <meta property="og:site_name" content="Ethan&#39;s Blog">
 
 <meta property="og:image" content="/img/favicon.ico">
@@ -29,7 +29,7 @@
 
 <!-- Twitter Card -->
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="tags - Ethan&#39;s Blog">
+<meta name="twitter:title" content="Ethan&#39;s Blog">
 <meta name="twitter:description" content="让梦想变为可以实现的现实">
 
 <meta name="twitter:image" content="/img/favicon.ico">
@@ -105,7 +105,7 @@
 
 
 <!-- Canonical URL -->
-<link rel="canonical" href="https://blog.120407.xyz/tags/index.html">
+<link rel="canonical" href="https://blog.120407.xyz">
 
 <!-- No-Referrer Domain Script -->
 
@@ -492,9 +492,9 @@
     <!-- Page Title Overlay -->
     <div class="page-title-overlay">
       
-      <h1 class="page-title">标签</h1>
+      <h1 class="page-title">安装</h1>
       
-      <div class="page-subtitle">共 7 个标签</div>
+      <div class="page-subtitle">1 篇文章</div>
       
     </div>
     
@@ -527,7 +527,7 @@
       
 
 <div id="main-grid" class="main-grid-layout has-no-sidebar">
-  <main id="main-content" class="page-container full-width">
+  <main id="main-content" class="post-list-container tag-container full-width" data-layout="list">
     
 <div class="content-nav-bar card-base">
   <!-- Home button -->
@@ -556,48 +556,112 @@
 
   <!-- Layout Toggle (right-aligned spacer + buttons) -->
   
+  <span class="content-nav-spacer"></span>
+  <div class="layout-buttons" style="display:flex;gap:0.25rem;">
+    <button data-layout="list" class="active" title="List">
+      <span class="material-symbols-outlined">view_list</span>
+    </button>
+    <button data-layout="grid" class="" title="Grid">
+      <span class="material-symbols-outlined">grid_view</span>
+    </button>
+  </div>
+  
 </div>
 
-    <article class="page-content">
-      <!-- ===== About Page ===== -->
+
+    <div class="post-list" data-mode="list">
       
         
-
-        <div class="markdown-body custom-md">
           
-        </div>
-      
-    </article>
 
-    <!-- Comments (for pages that support it: guestbook, about, etc.) -->
-    
-    <section class="page-comments" aria-label="Comments">
+<article class="post-card-item card-base" data-pinned="false" data-has-cover="false">
+  <!-- Cover image area -->
+  
+
+  <!-- Content area -->
+  <div class="post-card-content">
+    <!-- Title -->
+    <h2 class="post-card-title">
+      <a href="/2026/08/25/arch-linux-install/">Arch Linux 安装教程：从零开始打造你的系统</a>
+    </h2>
+
+    <!-- Meta line: date, category -->
+    <div class="post-card-meta">
       
-<div class="comments-container">
-  <div class="comments-title">Comments</div>
-  <div class="giscus-wrapper">
-    <script src="https://giscus.app/client.js"
-      data-repo="lkdenchin/hexo-blog-comments"
-      data-repo-id="R_kgDORXaOrA"
-      data-category="Announcements"
-      data-category-id="DIC_kwDORXaOrM4C3F8Y"
-      data-mapping="pathname"
-      data-strict="0"
-      data-reactions-enabled="1"
-      data-emit-metadata="1"
-      data-input-position="top"
-      data-theme="preferred_color_scheme"
-      data-lang="zh-CN"
-      data-loading="lazy"
-      crossorigin="anonymous"
-      async>
-    </script>
+      
+      <time datetime="2026-08-26" pubdate>
+        <span class="material-symbols-outlined md-18">calendar_today</span>
+        <span>2026-08-26</span>
+      </time>
+      
+      
+        
+        <a class="category-badge" href="/categories/Linux/">
+          <span class="material-symbols-outlined md-18">folder</span>
+          <span>Linux</span>
+        </a>
+      
+    </div>
+
+    <!-- Description / excerpt -->
+    
+    <p class="post-card-excerpt">「保持简单」是 Arch Linux 的信条。它给你一个最小、纯净、滚动更新的系统，其余的一切由你决定。
+
+本教程将带你走完从制作启动盘到进入可用桌面前的全部安装流程。只要跟着步骤走，即使是第一次接触 Arch，也能装出一台属于自己的机器。
+
+Info
+适用前提
+
+目标机器为 x86_64 架构，且以 UEFI 模式启动
+准备一个容量 ≥ 4GB 的 U 盘
+确保有稳定的网络（安装过程需联网下载</p>
+    
+
+    <!-- Footer: tags & reading time -->
+    <div class="post-card-footer">
+      
+      <div class="post-card-tags">
+        
+          <a href="/tags/ArchLinux/" class="post-tag-item">
+            #ArchLinux
+          </a>
+        
+          <a href="/tags/%E5%AE%89%E8%A3%85/" class="post-tag-item">
+            #安装
+          </a>
+        
+          <a href="/tags/%E6%95%99%E7%A8%8B/" class="post-tag-item">
+            #教程
+          </a>
+        
+      </div>
+      
+      
+      <span class="post-card-reading-time">
+        5 min
+      </span>
+      
+    </div>
   </div>
-</div>
 
+  <!-- Right side chevron panel for coverless cards -->
+  
+  <div class="post-card-arrow">
+    <a href="/2026/08/25/arch-linux-install/" aria-hidden="true" tabindex="-1">
+      <span class="material-symbols-outlined">chevron_right</span>
+    </a>
+  </div>
+  
+</article>
 
-    </section>
+        
+      
+    </div>
+
     
+
+
+
   </main>
 
   

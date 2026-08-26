@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes">
 
-<title>动态 - Ethan&#39;s Blog</title>
+<title>Arch Linux 安装教程：从零开始打造你的系统 - Ethan&#39;s Blog</title>
 
 
 <meta name="description" content="让梦想变为可以实现的现实">
@@ -18,10 +18,10 @@
 
 
 <!-- Open Graph -->
-<meta property="og:title" content="动态 - Ethan&#39;s Blog">
+<meta property="og:title" content="Arch Linux 安装教程：从零开始打造你的系统 - Ethan&#39;s Blog">
 <meta property="og:description" content="让梦想变为可以实现的现实">
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://blog.120407.xyz">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://blog.120407.xyz/2026/08/25/arch-linux-install/">
 <meta property="og:site_name" content="Ethan&#39;s Blog">
 
 <meta property="og:image" content="/img/favicon.ico">
@@ -29,7 +29,7 @@
 
 <!-- Twitter Card -->
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="动态 - Ethan&#39;s Blog">
+<meta name="twitter:title" content="Arch Linux 安装教程：从零开始打造你的系统 - Ethan&#39;s Blog">
 <meta name="twitter:description" content="让梦想变为可以实现的现实">
 
 <meta name="twitter:image" content="/img/favicon.ico">
@@ -105,7 +105,7 @@
 
 
 <!-- Canonical URL -->
-<link rel="canonical" href="https://blog.120407.xyz">
+<link rel="canonical" href="https://blog.120407.xyz/2026/08/25/arch-linux-install/">
 
 <!-- No-Referrer Domain Script -->
 
@@ -487,14 +487,36 @@
     
 
     
-
-    
-    <!-- Page Title Overlay -->
-    <div class="page-title-overlay">
-      
-      <h1 class="page-title">动态</h1>
-      
+    <!-- Post Meta Overlay -->
+    <div class="post-meta-overlay banner-post-meta">
+      <h1 class="post-meta-title">Arch Linux 安装教程：从零开始打造你的系统</h1>
+      <div class="post-meta-info meta-info">
+        
+        <span class="post-meta-date">
+          <span class="material-symbols-outlined md-18">calendar_today</span>
+          Published: 2026-08-26
+        </span>
+        
+        
+        <span class="post-meta-updated">
+          <span class="material-symbols-outlined md-18">edit</span>
+          Updated: 2026-08-26 20:53
+        </span>
+        
+        
+        <span class="post-meta-word-count">
+          <span class="material-symbols-outlined md-18">description</span>
+          2297 words
+        </span>
+        <span class="post-meta-reading-time">
+          <span class="material-symbols-outlined md-18">schedule</span>
+          2 min
+        </span>
+        
+      </div>
     </div>
+    
+
     
   </div>
 
@@ -529,6 +551,7 @@
   
   <aside class="sidebar-left" aria-label="左侧边栏">
     
+      
 
 <!-- Left sidebar widgets -->
 <div class="sidebar-widgets sidebar-left-widgets">
@@ -771,11 +794,19 @@
   
 </div>
 
+    
+    
+    
+      
+
+
+
+    
   </aside>
   
 
   <!-- ===== Main Content ===== -->
-  <main id="main-content" class="page-container">
+  <main id="main-content" aria-label="文章">
     
 <div class="content-nav-bar card-base">
   <!-- Home button -->
@@ -791,12 +822,12 @@
 
   <!-- Dynamic Categories -->
   
-    <a href="/categories/Linux/" class="content-nav-item">
+    <a href="/categories/Linux/" class="content-nav-item active">
       <span class="nav-item-label">Linux</span>
       <span class="nav-item-count">3</span>
     </a>
   
-    <a href="/categories/Linux/ArchLinux/" class="content-nav-item">
+    <a href="/categories/Linux/ArchLinux/" class="content-nav-item active">
       <span class="nav-item-label">ArchLinux</span>
       <span class="nav-item-count">3</span>
     </a>
@@ -806,56 +837,527 @@
   
 </div>
 
-    
-    <div class="dynamic-page-container">
-      <!-- Dynamic Header -->
-      <header class="card-base dynamic-header-card">
-        <div class="dynamic-header-top">
-          <div class="dynamic-brand">
-            <div class="dynamic-header-icon">
-              <span class="material-symbols-outlined">forum</span>
-            </div>
-            <div class="dynamic-brand-text">
-              <h1 class="dynamic-title">动态</h1>
-              <p class="dynamic-subtitle">随手记下此刻的想法与日常。</p>
-            </div>
-          </div>
-          <div class="dynamic-header-badge">
-            <span class="material-symbols-outlined">description</span>
-            <span><span id="dynamic-count-num">0</span> 动态</span>
-          </div>
-        </div>
-        
-        <!-- Filters (Search + Year select) -->
-        <div class="dynamic-filters">
-          <div class="dynamic-search-wrapper">
-            <span class="material-symbols-outlined dynamic-search-icon">search</span>
-            <input type="text" id="dynamic-search-input" class="dynamic-search-input" placeholder="搜索动态...">
-          </div>
-          <div class="dynamic-year-select-wrapper">
-            <select id="dynamic-year-select" class="dynamic-year-select">
-              <option value="all">全部年份</option>
-              
-            </select>
-          </div>
-        </div>
-      </header>
+    <article class="post-container" itemscope itemtype="http://schema.org/Article">
 
-      <!-- Dynamics List -->
-      <section class="dynamic-list">
+
+      <div class="post-content-card">
+        <!-- Post meta top: title, date, author, reading time, word count, categories -->
         
-          <div class="card-base" style="padding: 3rem; text-align: center; color: var(--text-tertiary);">
-            <p>暂无动态更新~</p>
-          </div>
-        
-      </section>
+
+
+  <header class="post-meta-top">
+    <!-- Top row: Word count & Reading time pills -->
+    <div class="post-header-badges-top">
+      
+      <span class="post-meta-badge badge-wordcount">
+        <span class="material-symbols-outlined" aria-hidden="true">trending_up</span>
+        <span>2297 words</span>
+      </span>
+      
+
+      
+      <span class="post-meta-badge badge-reading-time">
+        <span class="material-symbols-outlined" aria-hidden="true">schedule</span>
+        <span>
+          
+          
+          6 min
+        </span>
+      </span>
+      
     </div>
+
+    <!-- Title with CSS-styled vertical bar prefix -->
+    <h1 class="post-title post-title-custom">
+      <strong>Arch Linux 安装教程：从零开始打造你的系统</strong>
+    </h1>
+
+    <!-- Bottom row: Date & Categories/Tags path -->
+    <div class="post-header-badges-bottom">
+      
+      <span class="post-meta-badge badge-date">
+        <span class="material-symbols-outlined" aria-hidden="true">calendar_month</span>
+        <time datetime="2026-08-25 22:00" pubdate>
+          2026-08-25
+        </time>
+      </span>
+      
+
+      <!-- Categories & Tags Breadcrumb Path -->
+      
+      
+      <span class="post-meta-badge badge-taxonomy">
+        <span class="material-symbols-outlined" aria-hidden="true">sell</span>
+        <span class="taxonomy-path">
+          
+            
+            <a href="/categories/Linux/" class="taxonomy-cat">
+              Linux
+            </a>
+          
+            
+              <span class="taxonomy-separator">/</span>
+            
+            <a href="/categories/Linux/ArchLinux/" class="taxonomy-cat">
+              ArchLinux
+            </a>
+          
+            
+              <span class="taxonomy-separator">/</span>
+            
+            <a href="/tags/ArchLinux/" class="taxonomy-tag">
+              ArchLinux
+            </a>
+          
+            
+              <span class="taxonomy-separator">/</span>
+            
+            <a href="/tags/%E5%AE%89%E8%A3%85/" class="taxonomy-tag">
+              安装
+            </a>
+          
+            
+              <span class="taxonomy-separator">/</span>
+            
+            <a href="/tags/%E6%95%99%E7%A8%8B/" class="taxonomy-tag">
+              教程
+            </a>
+          
+        </span>
+      </span>
+      
+    </div>
+
+    <!-- Post updated notice -->
+    
+    <div class="post-updated-note">
+      <span class="material-symbols-outlined" aria-hidden="true">update</span>
+      Updated on 2026-08-26 20:53
+    </div>
+    
+  </header>
+
+
+
+        <!-- Post content -->
+        <div
+          class="post-content markdown-body custom-md"
+          itemprop="articleBody"
+        >
+          <blockquote>
+<p>「保持简单」是 Arch Linux 的信条。它给你一个最小、纯净、滚动更新的系统，其余的一切由你决定。</p>
+</blockquote>
+<p>本教程将带你走完从制作启动盘到进入可用桌面前的<strong>全部安装流程</strong>。只要跟着步骤走，即使是第一次接触 Arch，也能装出一台属于自己的机器。</p>
+<div class="admonition info">
+<div class="admonition-title">Info</div>
+<p><strong>适用前提</strong></p>
+<ul>
+<li>目标机器为 <code>x86_64</code> 架构，且以 <strong>UEFI</strong> 模式启动</li>
+<li>准备一个容量 ≥ 4GB 的 U 盘</li>
+<li>确保有稳定的网络（安装过程需联网下载包）</li>
+</ul>
+</div>
+
+<hr>
+<h2 id="1-制作启动盘"><a href="#1-制作启动盘" class="headerlink" title="1. 制作启动盘"></a>1. 制作启动盘</h2><p>从镜像站下载最新 ISO，并写入 U 盘（以下在 Linux 下操作）：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 下载镜像（以清华源为例）</span></span><br><span class="line">curl -LO https://mirrors.tuna.tsinghua.edu.cn/archlinux/iso/latest/archlinux-x86_64.iso</span><br><span class="line"></span><br><span class="line"><span class="comment"># 写入 U 盘，注意 of=/dev/sdX 要换成你的真实设备</span></span><br><span class="line"><span class="built_in">sudo</span> <span class="built_in">dd</span> <span class="keyword">if</span>=archlinux-x86_64.iso of=/dev/sdX bs=4M status=progress oflag=<span class="built_in">sync</span></span><br></pre></td></tr></table></figure>
+
+<div class="admonition warning">
+<div class="admonition-title">Warning</div>
+<p><code>/dev/sdX</code> 一旦写错，会<strong>清空该磁盘上的所有数据</strong>！可用 <code>lsblk</code> 确认设备名后再执行。</p>
+</div>
+
+<p>从 U 盘启动后，你会看到 <code>root@archiso ~ #</code> 这样的提示符，说明已进入 Live 环境。</p>
+<h2 id="2-连接网络"><a href="#2-连接网络" class="headerlink" title="2. 连接网络"></a>2. 连接网络</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 有线网络一般插上即用；无线网络使用 iwctl</span></span><br><span class="line">iwctl</span><br><span class="line">device list</span><br><span class="line">station wlan0 scan</span><br><span class="line">station wlan0 get-networks</span><br><span class="line">station wlan0 connect <span class="string">&quot;你的WiFi名&quot;</span></span><br><span class="line"><span class="built_in">exit</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 验证网络是否通畅</span></span><br><span class="line">ping -c 3 archlinux.org</span><br></pre></td></tr></table></figure>
+
+<h2 id="3-磁盘分区（UEFI-GPT）"><a href="#3-磁盘分区（UEFI-GPT）" class="headerlink" title="3. 磁盘分区（UEFI + GPT）"></a>3. 磁盘分区（UEFI + GPT）</h2><p>假设目标磁盘为 <code>/dev/nvme0n1</code>，使用交互式分区工具：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cgdisk /dev/nvme0n1</span><br></pre></td></tr></table></figure>
+
+<p>推荐的分区方案如下：</p>
+<table>
+<thead>
+<tr>
+<th>挂载点</th>
+<th>分区类型</th>
+<th>建议大小</th>
+<th>用途</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><code>/boot</code></td>
+<td>EFI (<code>ef00</code>)</td>
+<td>512M</td>
+<td>引导文件</td>
+</tr>
+<tr>
+<td><code>/</code></td>
+<td>Linux (<code>8300</code>)</td>
+<td>剩余空间</td>
+<td>根文件系统</td>
+</tr>
+<tr>
+<td><em>(可选)</em></td>
+<td>Linux swap (<code>8200</code>)</td>
+<td>2–4G</td>
+<td>交换分区</td>
+</tr>
+</tbody></table>
+<p>格式化并挂载：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">mkfs.fat -F32 /dev/nvme0n1p1</span><br><span class="line">mkfs.ext4 /dev/nvme0n1p2</span><br><span class="line">mount /dev/nvme0n1p2 /mnt</span><br><span class="line"><span class="built_in">mkdir</span> /mnt/boot</span><br><span class="line">mount /dev/nvme0n1p1 /mnt</span><br></pre></td></tr></table></figure>
+
+<h2 id="4-安装基础系统"><a href="#4-安装基础系统" class="headerlink" title="4. 安装基础系统"></a>4. 安装基础系统</h2><p>可先用 <code>reflector</code> 优选国内镜像源，加快下载速度：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">reflector --country China --age 12 --protocol https --<span class="built_in">sort</span> rate --save /etc/pacman.d/mirrorlist</span><br></pre></td></tr></table></figure>
+
+<p>安装核心软件包：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">pacstrap /mnt base linux linux-firmware base-devel vim networkmanager</span><br></pre></td></tr></table></figure>
+
+<h2 id="5-配置新系统"><a href="#5-配置新系统" class="headerlink" title="5. 配置新系统"></a>5. 配置新系统</h2><p>生成 fstab 并进入新系统：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">genfstab -U /mnt &gt;&gt; /mnt/etc/fstab</span><br><span class="line">arch-chroot /mnt</span><br></pre></td></tr></table></figure>
+
+<p>在新环境内完成基础设置：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 时区</span></span><br><span class="line"><span class="built_in">ln</span> -sf /usr/share/zoneinfo/Asia/Shanghai /etc/localtime</span><br><span class="line">hwclock --systohc</span><br><span class="line"></span><br><span class="line"><span class="comment"># 本地化</span></span><br><span class="line">sed -i <span class="string">&#x27;s/^#zh_CN.UTF-8/zh_CN.UTF-8/&#x27;</span> /etc/locale.gen</span><br><span class="line">locale-gen</span><br><span class="line"><span class="built_in">echo</span> <span class="string">&quot;LANG=zh_CN.UTF-8&quot;</span> &gt; /etc/locale.conf</span><br><span class="line"></span><br><span class="line"><span class="comment"># 主机名与用户</span></span><br><span class="line"><span class="built_in">echo</span> <span class="string">&quot;myarch&quot;</span> &gt; /etc/hostname</span><br><span class="line">passwd                                    <span class="comment"># 设置 root 密码</span></span><br><span class="line">useradd -m -G wheel -s /bin/bash ethan    <span class="comment"># 创建普通用户</span></span><br><span class="line">passwd ethan</span><br><span class="line"><span class="built_in">echo</span> <span class="string">&quot;%wheel ALL=(ALL:ALL) ALL&quot;</span> &gt;&gt; /etc/sudoers.d/wheel</span><br></pre></td></tr></table></figure>
+
+<h2 id="6-安装引导程序"><a href="#6-安装引导程序" class="headerlink" title="6. 安装引导程序"></a>6. 安装引导程序</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">pacman -S grub efibootmgr</span><br><span class="line">grub-install --target=x86_64-efi --efi-directory=/boot --bootloader-id=Arch</span><br><span class="line">grub-mkconfig -o /boot/grub/grub.cfg</span><br></pre></td></tr></table></figure>
+
+<p>启用网络服务，退出并重启：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">systemctl <span class="built_in">enable</span> NetworkManager</span><br><span class="line"><span class="built_in">exit</span></span><br><span class="line">umount -R /mnt</span><br><span class="line">reboot</span><br></pre></td></tr></table></figure>
+
+<div class="admonition tip">
+<div class="admonition-title">Tip</div>
+<p>重启时记得<strong>拔掉 U 盘</strong>，否则可能再次进入安装环境。启动后用刚创建的 <code>ethan</code> 用户登录即可。</p>
+</div>
+
+<hr>
+<h2 id="小结"><a href="#小结" class="headerlink" title="小结"></a>小结</h2><p>至此，你拥有了一台<strong>纯净的 Arch Linux 基础系统</strong>。它还没有图形界面，但已经是一个完整、可启动的 Linux。</p>
+<p>接下来该做什么？请阅读下一篇 👉 <strong>《Arch Linux 基础配置与日常使用指南》</strong>，我们将安装桌面环境、中文输入法与常用软件，让它真正「好用」起来。</p>
+
+        </div>
+
+        <!-- Post license / copyright -->
+        
+          
+
+<!-- Support & Share Widget -->
+<div class="post-share-donate-box">
+  <div class="share-donate-left-icon">
+    <span class="material-symbols-outlined">favorite</span>
+  </div>
+  <div class="share-donate-content">
+    <div class="share-donate-title">支持与分享</div>
+    <div class="share-donate-desc">如果这篇文章对你有帮助，欢迎分享给更多人或打赏支持！</div>
+  </div>
+  <div class="share-donate-actions">
+    <button class="share-donate-btn share-btn-outline" id="share-post-btn">
+      <span class="material-symbols-outlined">share</span>
+      <span>分享</span>
+    </button>
+    <a href="/donate/" class="share-donate-btn donate-btn-filled">
+      <span>打赏</span>
+      <span class="material-symbols-outlined">arrow_right_alt</span>
+    </a>
+  </div>
+</div>
+
+<!-- Copyright Card -->
+<div class="post-copyright-box">
+  <div class="copyright-watermark">CC</div>
+  <div class="copyright-header">
+    <span class="copyright-title">Arch Linux 安装教程：从零开始打造你的系统</span>
+    <a class="copyright-link" href="https://blog.120407.xyz/2026/08/25/arch-linux-install/" target="_blank" rel="noopener noreferrer">
+      https://blog.120407.xyz/2026/08/25/arch-linux-install/
+    </a>
+  </div>
+  <div class="copyright-meta">
+    <div class="copyright-meta-item">
+      <span class="meta-label">author</span>
+      <span class="meta-value">Ethan</span>
+    </div>
+    <div class="copyright-meta-item">
+      <span class="meta-label">Published</span>
+      <span class="meta-value">2026-08-25</span>
+    </div>
+    <div class="copyright-meta-item">
+      <span class="meta-label">License</span>
+      <span class="meta-value">
+        <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="license noopener noreferrer">
+          CC BY-NC-SA 4.0
+        </a>
+      </span>
+    </div>
+  </div>
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const shareBtn = document.getElementById('share-post-btn');
+  if (shareBtn) {
+    shareBtn.addEventListener('click', function() {
+      navigator.clipboard.writeText(window.location.href).then(function() {
+        showToast('链接已复制到剪贴板，快去分享给好友吧！');
+      }).catch(function() {
+        showToast('复制失败，请手动复制链接');
+      });
+    });
+  }
+  
+  function showToast(message) {
+    let toast = document.getElementById('firefly-toast');
+    if (!toast) {
+      toast = document.createElement('div');
+      toast.id = 'firefly-toast';
+      toast.style.cssText = `
+        position: fixed;
+        bottom: 2rem;
+        left: 50%;
+        transform: translateX(-50%) translateY(1rem);
+        background: oklch(0.25 0.12 var(--hue));
+        color: #fff;
+        padding: 0.65rem 1.5rem;
+        border-radius: 9999px;
+        box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+        font-size: 0.875rem;
+        font-weight: 600;
+        z-index: 99999;
+        opacity: 0;
+        transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        pointer-events: none;
+      `;
+      document.body.appendChild(toast);
+    }
+    toast.textContent = message;
+    setTimeout(() => {
+      toast.style.opacity = '1';
+      toast.style.transform = 'translateX(-50%) translateY(0)';
+    }, 50);
+    setTimeout(() => {
+      toast.style.opacity = '0';
+      toast.style.transform = 'translateX(-50%) translateY(1rem)';
+    }, 2500);
+  }
+});
+</script>
+
+        
+
+        <!-- Post meta bottom: tags, last modified -->
+        
+
+<footer class="post-meta-bottom">
+  <!-- Tags list -->
+  
+  <div class="post-meta-tags">
+    <span class="material-symbols-outlined" aria-hidden="true">sell</span>
+    
+      <a href="/tags/ArchLinux/" class="post-tag-link">
+        ArchLinux
+      </a>
+    
+      <a href="/tags/%E5%AE%89%E8%A3%85/" class="post-tag-link">
+        安装
+      </a>
+    
+      <a href="/tags/%E6%95%99%E7%A8%8B/" class="post-tag-link">
+        教程
+      </a>
+    
+  </div>
+  
+
+  <!-- Categories list at bottom -->
+  
+  <div class="post-meta-categories-bottom">
+    <span class="material-symbols-outlined" aria-hidden="true">folder</span>
+    
+      <a href="/categories/Linux/" class="post-category-link">
+        Linux
+      </a>
+    
+      <a href="/categories/Linux/ArchLinux/" class="post-category-link">
+        ArchLinux
+      </a>
+    
+  </div>
+  
+
+  <!-- Last modified date -->
+  
+  <div class="post-last-modified">
+    <span class="material-symbols-outlined" aria-hidden="true">edit</span>
+    Last modified on 2026-08-26 20:53
+  </div>
+  
+</footer>
+
+      </div>
+
+      <!-- Share buttons -->
+      
+
+      <!-- Footer widgets (Alert, Prev/Next Navigation, Smart Related & Random Articles) -->
+      
+
+<div class="post-footer-widgets">
+  <!-- Warning Info Alert -->
+  
+
+  <!-- Prev / Next Navigation -->
+  <nav class="post-footer-navigation">
+    <div class="post-nav-card-wrapper">
+      
+      <a href="/2026/08/25/arch-linux-basic-config/" class="post-nav-card card-base prev-nav-card" title="Arch Linux 基础配置与日常使用指南">
+        <span class="material-symbols-outlined nav-arrow">chevron_left</span>
+        <span class="nav-card-title">Arch Linux 基础配置与日常使用指南</span>
+      </a>
+      
+    </div>
+    <div class="post-nav-card-wrapper">
+      
+      <div class="post-nav-card card-base next-nav-card disabled">
+        <span class="nav-card-title">没有最新的文章了</span>
+        <span class="material-symbols-outlined nav-arrow">chevron_right</span>
+      </div>
+      
+    </div>
+  </nav>
+
+  <!-- Side-by-Side Recommendations Grid -->
+  <div class="post-recommendations-row">
+    <!-- Left Column: Related Posts -->
+    <div class="recommendations-column card-base">
+      <div class="recommendations-column-header">
+        <div class="column-header-title">
+          <span class="material-symbols-outlined">schema</span>
+          <h3>相关文章</h3>
+        </div>
+        <span class="recommend-badge smart-badge">智能推荐</span>
+      </div>
+      <ul class="recommend-list">
+        
+          
+          <li>
+            <a href="/2026/08/26/arch-linux-package-aur/" class="recommend-item">
+              <span class="recommend-index-badge first-index">1</span>
+              <div class="recommend-item-info">
+                <span class="recommend-item-title">Arch Linux 软件包管理与 AUR 进阶</span>
+                <div class="recommend-item-meta-row">
+                  <span class="recommend-item-category">Linux</span>
+                  
+                    <span class="recommend-item-excerpt">pacman 管官方仓库，AUR 补社区软件——二者合力，几乎能装到...</span>
+                  
+                </div>
+              </div>
+              <span class="material-symbols-outlined recommend-item-chevron">chevron_right</span>
+            </a>
+          </li>
+        
+          
+          <li>
+            <a href="/2026/08/25/arch-linux-basic-config/" class="recommend-item">
+              <span class="recommend-index-badge ">2</span>
+              <div class="recommend-item-info">
+                <span class="recommend-item-title">Arch Linux 基础配置与日常使用指南</span>
+                <div class="recommend-item-meta-row">
+                  <span class="recommend-item-category">Linux</span>
+                  
+                    <span class="recommend-item-excerpt">装好系统只是第一步。真正的 Arch 体验，从你亲手把它「调教」成顺...</span>
+                  
+                </div>
+              </div>
+              <span class="material-symbols-outlined recommend-item-chevron">chevron_right</span>
+            </a>
+          </li>
+        
+      </ul>
+    </div>
+
+    <!-- Right Column: Random Posts -->
+    <div class="recommendations-column card-base">
+      <div class="recommendations-column-header">
+        <div class="column-header-title">
+          <span class="material-symbols-outlined">explore</span>
+          <h3>随机文章</h3>
+        </div>
+        <span class="recommend-badge random-badge">随机推荐</span>
+      </div>
+      <ul class="recommend-list">
+        
+          
+          <li>
+            <a href="/2026/08/26/arch-linux-package-aur/" class="recommend-item">
+              <span class="recommend-index-badge first-index">1</span>
+              <div class="recommend-item-info">
+                <span class="recommend-item-title">Arch Linux 软件包管理与 AUR 进阶</span>
+                <div class="recommend-item-meta-row">
+                  <span class="recommend-item-category">Linux</span>
+                  
+                    <span class="recommend-item-excerpt">pacman 管官方仓库，AUR 补社区软件——二者合力，几乎能装到...</span>
+                  
+                </div>
+              </div>
+              <span class="material-symbols-outlined recommend-item-chevron">chevron_right</span>
+            </a>
+          </li>
+        
+          
+          <li>
+            <a href="/2026/08/25/arch-linux-basic-config/" class="recommend-item">
+              <span class="recommend-index-badge ">2</span>
+              <div class="recommend-item-info">
+                <span class="recommend-item-title">Arch Linux 基础配置与日常使用指南</span>
+                <div class="recommend-item-meta-row">
+                  <span class="recommend-item-category">Linux</span>
+                  
+                    <span class="recommend-item-excerpt">装好系统只是第一步。真正的 Arch 体验，从你亲手把它「调教」成顺...</span>
+                  
+                </div>
+              </div>
+              <span class="material-symbols-outlined recommend-item-chevron">chevron_right</span>
+            </a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+</div>
+
+    </article>
+
+    <!-- Comments section -->
+    
+    <section class="post-comments" aria-label="Comments">
+      
+<div class="comments-container">
+  <div class="comments-title">Comments</div>
+  <div class="giscus-wrapper">
+    <script src="https://giscus.app/client.js"
+      data-repo="lkdenchin/hexo-blog-comments"
+      data-repo-id="R_kgDORXaOrA"
+      data-category="Announcements"
+      data-category-id="DIC_kwDORXaOrM4C3F8Y"
+      data-mapping="pathname"
+      data-strict="0"
+      data-reactions-enabled="1"
+      data-emit-metadata="1"
+      data-input-position="top"
+      data-theme="preferred_color_scheme"
+      data-lang="zh-CN"
+      data-loading="lazy"
+      crossorigin="anonymous"
+      async>
+    </script>
+  </div>
+</div>
+
+
+    </section>
+    
   </main>
 
   <!-- ===== Right Sidebar ===== -->
   
   <aside class="sidebar-right" aria-label="右侧边栏">
     
+      
 
 <!-- Right sidebar widgets -->
 <div class="sidebar-widgets sidebar-right-widgets">
@@ -1528,6 +2030,23 @@ document.addEventListener('DOMContentLoaded', function() {
   
 </div>
 
+    
+    
+      
+
+
+<div id="toc" class="toc-widget">
+  <div class="toc-header">
+    <span>Table of Contents</span>
+  </div>
+  <div class="toc-body" id="toc-body">
+    <!-- Populated by client-side JavaScript -->
+  </div>
+</div>
+
+
+    
+    
   </aside>
   
 
@@ -1943,7 +2462,10 @@ document.addEventListener('DOMContentLoaded', function() {
 </div>
 
 
+
+  <!-- Floating TOC (always available via JS, appears as a floating widget on scroll) -->
   
+
   
 
 <footer id="site-footer" class="site-footer" role="contentinfo">
@@ -2000,43 +2522,6 @@ document.addEventListener('DOMContentLoaded', function() {
 </footer>
 
 </div>
-
-<script>
-document.addEventListener('DOMContentLoaded', function() {
-  const searchInput = document.getElementById('dynamic-search-input');
-  const yearSelect = document.getElementById('dynamic-year-select');
-  const cards = document.querySelectorAll('.dynamic-card');
-  const countEl = document.getElementById('dynamic-count-num');
-  
-  function filterDynamics() {
-    const query = searchInput ? searchInput.value.toLowerCase().trim() : '';
-    const year = yearSelect ? yearSelect.value : 'all';
-    let visibleCount = 0;
-    
-    cards.forEach(card => {
-      const text = card.getAttribute('data-content');
-      const cardYear = card.getAttribute('data-year');
-      
-      const matchesSearch = text.includes(query);
-      const matchesYear = (year === 'all' || cardYear === year);
-      
-      if (matchesSearch && matchesYear) {
-        card.style.display = 'flex';
-        visibleCount++;
-      } else {
-        card.style.display = 'none';
-      }
-    });
-    
-    if (countEl) {
-      countEl.textContent = visibleCount;
-    }
-  }
-  
-  if (searchInput) searchInput.addEventListener('input', filterDynamics);
-  if (yearSelect) yearSelect.addEventListener('change', filterDynamics);
-});
-</script>
 
     </div>
   </div>
